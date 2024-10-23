@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>My Portfolio</title>
+    <style>
+        /* General Styles */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo {
+            font-size: 24px;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        nav a.active {
+            font-weight: bold;
+            border-bottom: 2px solid #fff;
+        }
+
+        /* Home Section */
+        .home {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80vh;
+            padding: 20px;
+            background-color: #fafafa;
+        }
+
+        .home-img img {
+            max-width: 300px;
+            border-radius: 10px;
+        }
+
+        .home-content h2 {
+            color: #333;
+        }
+
+        .home-content p {
+            max-width: 600px;
+            line-height: 1.5;
+        }
+
+        /* Skills Section */
+        .skills {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .skills h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .skills-container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .skill {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">RUJITA BALAMURUGAN</a>
+
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-img">
+            <img src="Ruji.jpg" alt="Rujita's Image">
+        </div>
+        <div class="home-content">
+            <h2><span>I am Rujita Balamurugan</span></h2>
+            <h3 class="typing-text"><span></span></h3>
+            <p>
+                I am currently pursuing Cyber Security and Internet of Things in BTech CSE at SRI RAMACHANDRA.
+                I am passionate about designing and creating, and I have been actively involved in many competitions.
+                Along with my academic pursuits, I enjoy developing skills in C, C++, Java, and HTML.
+                I thrive in collaborative environments and am always eager to learn new things.
+                My goal is to become a creative designer and achieve excellence in my domain.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML</h3>
+                <p>Proficient in creating semantic and structured web pages.</p>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <p>Experienced in styling websites with modern design patterns.</p>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <p>Knowledge of front-end development and interactivity.</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
